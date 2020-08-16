@@ -136,7 +136,6 @@ a:hover {
   right: 15%;
 }
 
-
 /* projects */
 
 .links {
@@ -223,7 +222,6 @@ a:visited {
   color: white;
 }
 
-
 @media screen and (min-width: 500px) {
   .linkedinIcon,
   .facebookIcon,
@@ -299,9 +297,9 @@ a:visited {
     left: 47.5%;
   }
 
-
   .value {
     font-size: 25px;
+    text-align: left;
   }
 
   .key {
@@ -318,7 +316,14 @@ a:visited {
 
   .pageTitle {
     font-size: 35px;
+  }
 
+  html {
+    text-align: left;
+  }
+
+  .pageTitle {
+    margin-left: 10px;
   }
 }
 

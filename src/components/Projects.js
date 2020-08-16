@@ -19,12 +19,14 @@ function Projects() {
                   {key === "Date" && <p className="dateValue">{data[key]}</p>}
                   {key === "Name" && <p className="nameValue">{data[key]}</p>}
                   {key === "Links" && (
-                    <>
+                    <div>
                       <p className="key">{key}</p>
-                      <a href={data[key]} target="_blank" className="value">
+                      <a href={data[key]} target="_blank">
+                      <p  className="value">
                         {data[key]}
+                      </p>
                       </a>
-                    </>
+                    </div>
                   )}
                 </div>
               );
