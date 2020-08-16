@@ -55,8 +55,7 @@ const projects = [
     Context:
       "A small number of people in the world suffers from prosopagnosia, a condition in which they can't recognize faces. This app is for them.",
     Status: "In Progress",
-    Links:
-      "https://bit.ly/3iNvxlH",
+    Links: "https://bit.ly/3iNvxlH",
     Date: "2020",
   },
   {
@@ -66,8 +65,7 @@ const projects = [
       "An app where you can send a message that will arrive to someone at random",
     Context: "Just trying out an idea for fun",
     Status: "Inactive",
-    Links:
-      "https://bit.ly/31OWMp2",
+    Links: "https://bit.ly/31OWMp2",
     Date: "2020",
   },
   {
@@ -77,8 +75,7 @@ const projects = [
     Context:
       "How do whales communicate? They echo-locate each other using sonars. With Whale you could do the same.",
     Status: "Inactive",
-    Links:
-      "https://bit.ly/2Y0ueHR",
+    Links: "https://bit.ly/2Y0ueHR",
     Date: "2019",
   },
   {

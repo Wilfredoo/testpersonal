@@ -10,7 +10,6 @@ const titles = [
     "Cookies Enthusiast",
     "Prison Escapee",
     "Unethical Pillow Fighter",
-    "Digital Potatoe Farmer",
     "Potatoe Farmer",
     "Waterbending Master",
     "Proficient Sorcerer",
