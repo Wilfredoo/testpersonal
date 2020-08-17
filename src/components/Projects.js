@@ -3,13 +3,13 @@ import React from "react";
 function Projects() {
   return (
     <div className="projectsPage">
-      <h1 className="pageTitle">Things I've done</h1>
+      <h1 className="pageTitle">Projects</h1>
       {projects.map((data, index) => {
         return (
           <div key={index} className="oneProject">
             {Object.keys(data).map((key, i) => {
               return (
-                <div key={i}>
+                <div className="field" key={i}>
                   {key !== "Name" && key !== "Date" && key !== "Links" && (
                     <>
                       <p className="key">{key}</p>
@@ -21,10 +21,12 @@ function Projects() {
                   {key === "Links" && (
                     <div>
                       <p className="key">{key}</p>
-                      <a href={data[key]} target="_blank">
-                      <p  className="value">
-                        {data[key]}
-                      </p>
+                      <a
+                        className="projectLink"
+                        href={data[key]}
+                        target="_blank"
+                      >
+                        <p className="value linkValue">{data[key]}</p>
                       </a>
                     </div>
                   )}
@@ -45,11 +47,11 @@ const projects = [
     Name: "Jobdirecto",
     Description: "A simple job board for Hispanic immigrants in NYC",
     Context:
-      "Latino immigrants are big part of the NYC blue collar workforce, but before Jobdirecto, they didnt have a direct, clean and trustable way to find jobs.",
+      "Before Jobdirecto, Hispanic immigrants had no direct, clean and trustable way to find jobs. Thus, I created Jobdirecto.",
     Status: "Active",
     Team: "Jose Torrens and me",
     Links: "https://www.jobdirecto.com/",
-    Date: "2019 - now",
+    Date: "2019 - Now",
   },
   {
     Name: "Super Recognizer",
@@ -57,26 +59,29 @@ const projects = [
     Context:
       "A small number of people in the world suffers from prosopagnosia, a condition in which they can't recognize faces. This app is for them.",
     Status: "In Progress",
+    Team: "Just me",
     Links: "https://bit.ly/3iNvxlH",
-    Date: "2020",
+    Date: "Now",
   },
   {
     Name: "Capybara",
-
     Description:
       "An app where you can send a message that will arrive to someone at random",
-    Context: "Just trying out an idea for fun",
+    Context:
+      "What would you write if you didn't know who the recipient would be? That was the premise for this app.",
     Status: "Inactive",
+    Team: "Emmanuel Byiringiro and me",
     Links: "https://bit.ly/31OWMp2",
     Date: "2020",
   },
   {
     Name: "Whale",
-
     Description: "An app to exchange locations with friends and family",
     Context:
-      "How do whales communicate? They echo-locate each other using sonars. With Whale you could do the same.",
+      "How do whales communicate? They use echo-location, of course. With Whale you could do the same (but using locations).",
     Status: "Inactive",
+    Team: "Just me",
+
     Links: "https://bit.ly/2Y0ueHR",
     Date: "2019",
   },
@@ -97,6 +102,7 @@ const projects = [
     Context:
       "The sport got trendy in 2011 in Peru and gloves on the market were too expensive for most people, so I created my own brand and sold them to riders in Lima and other cities.",
     Status: "Inactive",
+    Team: "Just me",
     Links: "https://bit.ly/31SnxJ7",
     Date: "2012",
   },

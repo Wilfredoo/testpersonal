@@ -53,9 +53,12 @@ p {
   width: 200px;
 }
 
-a:visited {
+.projectLink:visited {
   text-decoration: none;
 }
+
+
+
 a {
   text-decoration: none;
 }
@@ -185,7 +188,7 @@ a:hover {
 
 .oneProject {
   border: 2px solid #bbadff;
-  margin: 10px;
+  margin: 10px 0px;
   padding: 10px 20px 0px 20px;
 }
 
@@ -202,6 +205,14 @@ a:hover {
   color: white;
   font-size: 16px;
   text-align: center;
+  line-height: 1.5;
+
+}
+
+.linkValue {
+  margin-top: -20px;
+
+
 }
 
 .nameValue {
@@ -215,7 +226,8 @@ a:hover {
   font-size: 12px;
   font-weight: bold;
   text-align: right;
-  margin-right: -6px;
+    margin-top: -15px;
+    margin-right: -6px;
 }
 
 a:visited {
@@ -267,6 +279,11 @@ a:visited {
 }
 
 @media screen and (min-width: 800px) {
+
+  .oneProject {
+    margin:15px 10px;
+    padding-bottom: 15px;
+  }
   .projectsIcon {
     right: 30px;
     width: 60px;
@@ -298,16 +315,18 @@ a:visited {
   }
 
   .value {
-    font-size: 25px;
+    font-size: 18px;
     text-align: left;
   }
 
   .key {
-    font-size: 20px;
+    font-size: 14px;
+    padding-top: 0px ;
   }
 
   .dateValue {
     font-size: 20px;
+    margin-top: -62px;
   }
 
   .nameValue {
@@ -336,3 +355,4 @@ a:visited {
     display: none;
   }
 }
+

@@ -1,5 +1,4 @@
 const icons = [
-    "bacterium",
     "bat",
     "cage",
     "chimera",
@@ -13,7 +12,6 @@ const icons = [
     "dynamite",
     "fear",
     "galleon",
-    "ghost",
     "goblin",
     "hydra",
     "llama",
@@ -46,10 +44,8 @@ const icons = [
     "paper",
     "pot",
     "purpleFire",
-    "sheep",
+    // "sheep",
     "sheep2",
-    "warrior",
-    "werewolf",
     "science-fiction",
   ];
 
