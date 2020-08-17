@@ -102,7 +102,7 @@ function Main() {
           <div>
             <p>
               <a
-                class=""
+                id="footerLink"
                 href="https://creativecommons.org/publicdomain/zero/1.0/legalcode"
                 target="_blank"
               >

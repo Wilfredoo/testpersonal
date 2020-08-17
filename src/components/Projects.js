@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   return (
     <div className="projectsPage">
-      <h1 className="pageTitle">Projects</h1>
+      <h1 className="pageTitle"> * * Projects * *</h1>
       {projects.map((data, index) => {
         return (
           <div key={index} className="oneProject">
