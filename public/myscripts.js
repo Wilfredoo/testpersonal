@@ -35,9 +35,9 @@ $(document).ready(
       }, 9500)
     );
     
-    if (location.protocol == "http:" && window.location.hostname !== "localhost") {
-      location.href = location.href.replace("http://", "https://");
-    }
+    // if (location.protocol == "http:" && window.location.hostname !== "localhost") {
+    //   location.href = location.href.replace("http://", "https://");
+    // }
     
     function makeNewPosition() {
       var h = $(window).height() - 150;
@@ -53,6 +53,7 @@ $(document).ready(
     }
     
     function animateDiv(myclass) {
+      console.log("ANIMATE!!")
       var newq = makeNewPosition();
       $(myclass).animate({ top: newq[0], left: newq[1] }, 2500, function () {
         animateDiv(myclass);
