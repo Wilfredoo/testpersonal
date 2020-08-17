@@ -100,7 +100,7 @@ const projects = [
     Name: "Guantes la Pepa",
     Description: "First gloves for downhill-longboarding produced in Peru",
     Context:
-      "The sport got trendy in 2011 in Peru and gloves on the market were too expensive for most people, so I created my own brand and sold them to riders in Lima and other cities.",
+      "The sport got trendy in 2011 in Peru and gloves on the market were too expensive for most people, so I created my own brand and sold them locally.",
     Status: "Inactive",
     Team: "Just me",
     Links: "https://bit.ly/31SnxJ7",
