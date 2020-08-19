@@ -34,68 +34,68 @@ function Main() {
   }
 
   return (
-    <div class="mainContainer">
+    <div className="mainContainer">
       <div>
         <div>
-          <img class="avatar" src="/wilfredo.jpg" />
+          <img className="avatar" src="/wilfredo.jpg" />
         </div>
         <h1>Wilfredo Casas</h1>
         {randomTitle !== "null" && (
-          <p class="title">
+          <p className="title">
             Entrepreneur {"&"} {randomTitle}
           </p>
         )}
         {randomTitle === "null" && (
-          <p class="title">Entrepreneur and Software Developer</p>
+          <p className="title">Entrepreneur and Software Developer</p>
         )}
         {randomSubtitle !== "null" && <p class="subtitle">{randomSubtitle}</p>}
 
-        <div class="social">
-          <a class="github" href="https://github.com/wilfredoo" target="_blank">
-            <img class="githubIcon" src="/github.svg" />
+        <div className="social">
+          <a className="github" href="https://github.com/wilfredoo" target="_blank">
+            <img className="githubIcon" src="/github.svg" />
           </a>
           <a
-            class="youtube"
+            className="youtube"
             href="https://www.youtube.com/watch?v=_IgSwvsMbII"
             target="_blank"
           >
-            <img class="youtubeIcon" src="/youtube.svg" />
+            <img className="youtubeIcon" src="/youtube.svg" />
           </a>
           <a
-            class="linkedin"
+            className="linkedin"
             href="https://www.linkedin.com/in/wilfredocasas/"
             target="_blank"
           >
-            <img class="linkedinIcon" src="/linkedin.svg" />
+            <img className="linkedinIcon" src="/linkedin.svg" />
           </a>
 
           <a
-            class="email"
+            className="email"
             href={
               "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=me@wilfredocasas.com"
             }
             target="_blank"
           >
-            <img class="emailIcon" src="/gmail.svg" />
+            <img className="emailIcon" src="/gmail.svg" />
           </a>
           <a
-            class="whatsapp"
+            className="whatsapp"
             href="https://api.whatsapp.com/send?phone=+491777898706"
             target="_blank"
           >
-            <img class="whatsappIcon" src="/whatsapp.svg" />
+            <img className="whatsappIcon" src="/whatsapp.svg" />
           </a>
           <a
-            class="facebook"
+            className="facebook"
             href="/https://www.facebook.com/wilfredo.casas.752"
             target="_blank"
           >
-            <img class="facebookIcon" src="/facebook.svg" />
+            <img className="facebookIcon" src="/facebook.svg" />
           </a>
         </div>
         {randomIcon && (
-          <a class="projects" href="/projects" target="_blank">
-            <img class="projectsIcon" src={`/projects/${randomIcon}.svg`} />
+          <a className="projects" href="/projects" target="_blank">
+            <img className="projectsIcon" src={`/projects/${randomIcon}.svg`} />
           </a>
         )}
         <footer id="footer">
@@ -106,7 +106,7 @@ function Main() {
                 href="https://creativecommons.org/publicdomain/zero/1.0/legalcode"
                 target="_blank"
               >
-                <i class="creativeCommonsIcon fab fa-creative-commons-pd"></i>{" "}
+                <i className="creativeCommonsIcon fab fa-creative-commons-pd"></i>{" "}
                 No rights reserved.
               </a>
             </p>

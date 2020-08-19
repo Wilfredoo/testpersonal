@@ -35,9 +35,9 @@ $(document).ready(
       }, 9500)
     );
     
-    // if (location.protocol == "http:" && window.location.hostname !== "localhost") {
-    //   location.href = location.href.replace("http://", "https://");
-    // }
+    if (location.protocol == "http:" && window.location.hostname !== "localhost") {
+      location.href = location.href.replace("http://", "https://");
+    }
     
     function makeNewPosition() {
       var h = $(window).height() - 150;
