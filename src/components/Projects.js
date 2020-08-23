@@ -78,7 +78,7 @@ const projects = [
     Name: "Whale",
     Description: "An app to exchange locations with friends and family",
     Context:
-      "How do whales communicate? They use echo-location, of course. With Whale you could do the same (but using locations).",
+      "How do whales communicate? They use echo-location, of course. With Whale, you could do the same (but using locations duh).",
     Status: "Inactive",
     Team: "Just me",
 
@@ -90,7 +90,7 @@ const projects = [
     Description:
       "A dating app where you could only choose (peck) 3 people a day and if they chose you back, you would match (bond). Conversations were limited to one quick live video call.",
     Context:
-      "Unlimited options and text messages only resulted in poor quality interactions in apps like Tinder or Bumble. This app aimed to tackle both of these problems.",
+      "Due to various reasons, most users are unhappy with their results using apps like Tinder or Bumble. This app aimed re-invent the online dating experience.",
     Status: "Inactive (may retry in the future)",
     Team: "Jonathan Poischen and me",
     Links: "https://bit.ly/3gZyRd1",
