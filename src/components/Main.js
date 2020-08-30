@@ -87,7 +87,7 @@ function Main() {
           </a>
           <a
             className="facebook"
-            href="/https://www.facebook.com/wilfredo.casas.752"
+            href="https://www.facebook.com/wilfredo.casas.752"
             target="_blank"
           >
             <img className="facebookIcon" src="/facebook.svg" />
