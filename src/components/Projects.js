@@ -75,6 +75,15 @@ const projects = [
     Date: "2020",
   },
   {
+    Name: "Numbers Memory Game",
+    Description: "A simple game to help you train memorizing numbers",
+    Context:
+      "I wanted a simple game that helped me memorize numbers after hearing them. I couldn't find any, so I created one ¯\_(ツ)_/¯",
+    Links: "https://sleepy-atoll-92245.herokuapp.com/",
+    Date: "2020",
+  },
+  
+  {
     Name: "Whale",
     Description: "An app to exchange locations with friends and family",
     Context:
@@ -88,12 +97,24 @@ const projects = [
   {
     Name: "Colibri",
     Description:
-      "A dating app where you could only choose (peck) 3 people a day and if they chose you back, you would match (bond). Conversations were limited to one quick live video call.",
+      "An alternative dating app where you could only 'peck' 3 people a day and have a quick live video call with the ones you bonded with.",
     Context:
-      "Due to various reasons, most users are unhappy with their results using apps like Tinder or Bumble. This app aimed to re-invent their online dating experience.",
+      "Most people are unhappy with Tinder or Bumble. This app aimed to re-think the online dating experience.",
     Status: "Inactive (may retry in the future)",
     Team: "Jonathan Poischen and me",
-    Links: "https://bit.ly/3gZyRd1",
+    "Link 1": "www.colibriapp.de",
+    "Link 2": "https://bit.ly/3gZyRd1",
+    Date: "2019",
+  },
+  {
+    Name: "Juanita Calendar",
+    Description:
+      "A simple calendar for swing dance events in Berlin",
+    Context:
+      "Most dance calendars look and work like crap. The idea was to create a nice looking, minimal calendar that any dance group (salsa, swing, tango, etc) in any city could use to promote their events.",
+    Status: "Inactive",
+    Team: "Just me",
+    Link: "www.juanitacalendar.de",
     Date: "2019",
   },
   {
