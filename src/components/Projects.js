@@ -99,7 +99,7 @@ const projects = [
     Description:
       "An alternative dating app where you could only 'peck' 3 people a day and have a quick live video call with the ones you bonded with.",
     Context:
-      "Most people are unhappy with Tinder or Bumble. This app aimed to re-think the online dating experience.",
+      "Most people are unhappy with the current dating apps on the market, such as Tinder, Bumble or Parship. This app aimed to re-think the online dating experience.",
     Status: "Inactive (may retry in the future)",
     Team: "Jonathan Poischen and me",
     "Link 1": "www.colibriapp.de",
