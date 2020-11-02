@@ -10,7 +10,7 @@ function Projects() {
             {Object.keys(data).map((key, i) => {
               return (
                 <div className="field" key={i}>
-                  {key !== "Name" && key !== "Date" && key !== "Links" && (
+                  {key !== "Name" && key !== "Date" &&  key !== "Link" && key !== "Link 1" && key !== "Link 2" && (
                     <>
                       <p className="key">{key}</p>
                       <p className="value">{data[key]}</p>
@@ -18,8 +18,8 @@ function Projects() {
                   )}
                   {key === "Date" && <p className="dateValue">{data[key]}</p>}
                   {key === "Name" && <p className="nameValue">{data[key]}</p>}
-                  {key === "Links" && (
-                    <div>
+                  {(key === "Link" || key === "Link 1" || key === "Link 2") && (
+                    <div className="link">
                       <p className="key">{key}</p>
                       <a
                         className="projectLink"
@@ -50,17 +50,18 @@ const projects = [
       "Before Jobdirecto, Hispanic immigrants had no direct, clean and trustable way to find jobs. Thus, I created Jobdirecto.",
     Status: "Active",
     Team: "Jose Torrens and me",
-    Links: "https://www.jobdirecto.com/",
+    Link: "https://www.jobdirecto.com/",
     Date: "2019 - Now",
   },
   {
-    Name: "Super Recognizer",
-    Description: "An app to train facial recognition skills",
+    Name: "Super Recogniser",
+    Description: "A collection of games to train facial recognition skills",
     Context:
       "A small number of people in the world suffers from prosopagnosia, a condition in which they can't recognize faces. This app is for them.",
     Status: "In Progress",
     Team: "Just me",
-    Links: "https://bit.ly/3iNvxlH",
+    "Link 1": "https://super-recogniser.com/",
+    "Link 2": "https://bit.ly/3iNvxlH",
     Date: "Now",
   },
   {
@@ -71,7 +72,7 @@ const projects = [
       "What would you write if you didn't know who the recipient would be? That was the premise for this app.",
     Status: "Inactive",
     Team: "Emmanuel Byiringiro and me",
-    Links: "https://bit.ly/31OWMp2",
+    Link: "https://bit.ly/31OWMp2",
     Date: "2020",
   },
   {
@@ -79,7 +80,7 @@ const projects = [
     Description: "A simple game to help you train memorizing numbers",
     Context:
       "I wanted a simple game that helped me memorize numbers after hearing them. I couldn't find any, so I created one ¯\_(ツ)_/¯",
-    Links: "https://sleepy-atoll-92245.herokuapp.com/",
+    Link: "https://sleepy-atoll-92245.herokuapp.com/",
     Date: "2020",
   },
   
@@ -91,7 +92,7 @@ const projects = [
     Status: "Inactive",
     Team: "Just me",
 
-    Links: "https://bit.ly/2Y0ueHR",
+    Link: "https://bit.ly/2Y0ueHR",
     Date: "2019",
   },
   {
@@ -124,7 +125,7 @@ const projects = [
       "The sport got trendy in 2011 in Peru and gloves on the market were too expensive for most people, so I created my own brand and sold them locally.",
     Status: "Inactive",
     Team: "Just me",
-    Links: "https://bit.ly/31SnxJ7",
+    Link: "https://bit.ly/31SnxJ7",
     Date: "2012",
   },
 ];

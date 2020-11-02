@@ -183,6 +183,10 @@ a {
   margin-bottom: 30px 0 30px 0;
 }
 
+.link {
+  margin-bottom: -30px;
+}
+
 .oneProject {
   border: 2px solid #c3aed6;
   margin: 10px 0px;
