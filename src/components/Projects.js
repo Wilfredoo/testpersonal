@@ -63,7 +63,16 @@ const projects = [
     "Link 1": "https://super-recogniser.com/",
     "Link 2": "https://bit.ly/3iNvxlH",
     Date: "Now",
-  },
+  },{
+  Name: "River Wars",
+  Description: "River Wars is a boardgame where small, cute and violent creatures fight for resources",
+  Context:
+    "Most boardgames are either cooperatively or competitively, but in River Wars, you can win by cooperating, stealing, lying, killing and saying the truth. What will you do?",
+  Status: "In Progress",
+  Team: "Just me so far",
+  "Link": "https://www.instagram.com/river_wars_boardgame/",
+  Date: "Now",
+},
   {
     Name: "Capybara",
     Description:
