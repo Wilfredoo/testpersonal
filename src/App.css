@@ -359,7 +359,7 @@ a {
 
 }
 
-@media screen and (max-height: 650px) {
+@media screen and (max-height: 700px) {
   .mainContainer {
     top: 60px;
   }
