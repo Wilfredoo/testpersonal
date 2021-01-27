@@ -6,15 +6,15 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <Route exact path="/">
-        <Main />
-      </Route>
-      <Route exact path="/projects">
-        <Projects />
-      </Route>
+      <BrowserRouter>
+        <Route exact path="/">
+          <Main />
+        </Route>
+        <Route exact path="/projects">
+          <Projects />
+        </Route>
       </BrowserRouter>
-      </>
+    </>
   );
 }
 

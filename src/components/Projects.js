@@ -10,7 +10,7 @@ function Projects() {
             {Object.keys(data).map((key, i) => {
               return (
                 <div className="field" key={i}>
-                  {key !== "Name" && key !== "Date" &&  key !== "Link" && key !== "Link 1" && key !== "Link 2" && (
+                  {key !== "Name" && key !== "Date" && key !== "Link" && key !== "Link 1" && key !== "Link 2" && (
                     <>
                       <p className="key">{key}</p>
                       <p className="value">{data[key]}</p>
@@ -49,30 +49,29 @@ const projects = [
     Context:
       "Before Jobdirecto, Hispanic immigrants had no direct, clean and trustable way to find jobs. Thus, I created Jobdirecto.",
     Status: "Active",
-    Team: "Jose Torrens and me",
+    Team: "Just moi",
     Link: "https://www.jobdirecto.com/",
     Date: "2019 - Now",
+  },
+  {
+    Name: "Witch Hunt Boardgames",
+    Description: "Just having fun and creating boardgames. Currently focused on Bamberg, a social deduction game where you are trying to kill the witches before they kill the children of the village. Fun stuff!?",
+    Status: "In Progress",
+    Team: "Azul Moreno (art) and I",
+    "Link": "https://www.instagram.com/witch_hunt_boardgames/?hl=en",
+    Date: "Now",
   },
   {
     Name: "Super Recogniser",
     Description: "A collection of games to train facial recognition skills",
     Context:
       "A small number of people in the world suffers from prosopagnosia, a condition in which they can't recognize faces. This app is for them.",
-    Status: "In Progress",
+    Status: "Inactive",
     Team: "Just me",
     "Link 1": "https://super-recogniser.com/",
     "Link 2": "https://bit.ly/3iNvxlH",
-    Date: "Now",
-  },{
-  Name: "River Wars",
-  Description: "River Wars is a boardgame where small, cute and violent creatures fight for resources",
-  Context:
-    "Most boardgames are either cooperatively or competitively, but in River Wars, you can win by cooperating, stealing, lying, killing and saying the truth. What will you do?",
-  Status: "In Progress",
-  Team: "Just me so far",
-  "Link": "https://www.instagram.com/river_wars_boardgame/",
-  Date: "Now",
-},
+    Date: "2020",
+  },
   {
     Name: "Capybara",
     Description:
@@ -92,7 +91,7 @@ const projects = [
     Link: "https://sleepy-atoll-92245.herokuapp.com/",
     Date: "2020",
   },
-  
+
   {
     Name: "Whale",
     Description: "An app to exchange locations with friends and family",

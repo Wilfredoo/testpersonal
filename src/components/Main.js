@@ -2,17 +2,14 @@ import React, { useState, useEffect } from "react";
 import "../App.css";
 import icons from "../iconArray";
 import titles from "../titleArray";
-import subtitles from "../subtitleArray";
 
 function Main() {
   const [randomIcon, setRandomIcon] = useState(null);
   const [randomTitle, setRandomTitle] = useState(null);
-  const [randomSubtitle, setRandomSubtitle] = useState(null);
 
   useEffect(() => {
     randomizeIcon();
     randomizeTitle();
-    randomizeSubtitle();
   }, []);
 
   async function randomizeIcon() {
@@ -26,18 +23,13 @@ function Main() {
     setRandomTitle(title);
   }
 
-  async function randomizeSubtitle() {
-    const subtitle = await subtitles[
-      Math.floor(Math.random() * subtitles.length)
-    ];
-    setRandomSubtitle(subtitle);
-  }
+
 
   return (
     <div className="mainContainer">
       <div>
         <div>
-          <img className="avatar" src="/wilfredo.jpg" />
+          <img className="avatar" src="/wilfred.jpeg" />
         </div>
         <h1>Wilfredo Casas</h1>
         {randomTitle !== "null" && (
@@ -48,7 +40,6 @@ function Main() {
         {randomTitle === "null" && (
           <p className="title">Entrepreneur and Software Developer</p>
         )}
-        {randomSubtitle !== "null" && <p class="subtitle">{randomSubtitle}</p>}
 
         <div className="social">
           <a className="github" href="https://github.com/wilfredoo" target="_blank">
@@ -56,7 +47,7 @@ function Main() {
           </a>
           <a
             className="youtube"
-            href="https://www.youtube.com/watch?v=_IgSwvsMbII"
+            href="https://www.youtube.com/watch?v=kQQYVco9nS4&ab_channel=WilCas"
             target="_blank"
           >
             <img className="youtubeIcon" src="/youtube.svg" />

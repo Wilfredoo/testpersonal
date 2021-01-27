@@ -8,7 +8,7 @@ html {
   position: absolute;
   left: 0;
   right: 0;
-  top: 100px;
+  top: 10%;
   bottom: 0;
   margin: auto;
   max-width: 100%;
@@ -277,7 +277,7 @@ a {
   }
 
   .githubIcon {
-    right: 15%;
+    right: 14%;
   }
 
   .linkedinIcon {
@@ -304,6 +304,10 @@ a {
   .whatsappIcon,
   .linkedinIcon {
     margin-top: 3%;
+  }
+
+  .linkedinIcon {
+    margin-top: 2%;
   }
 
   .youtubeIcon,
