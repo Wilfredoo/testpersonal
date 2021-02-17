@@ -55,7 +55,7 @@ const projects = [
   },
   {
     Name: "Witch Hunt Boardgames",
-    Description: "Just having fun and creating boardgames. Currently focused on Bamberg, a social deduction game where you are trying to kill the witches before they kill the children of the village. Fun stuff!?",
+    Description: "Just having fun and creating boardgames. Currently focused on Bamberg, a social deduction game where you are trying to kill the witches before they kill the children of the village. Fun stuff!",
     Status: "In Progress",
     Team: "Azul Moreno and I",
     Date: "Now",
