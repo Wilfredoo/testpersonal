@@ -1,7 +1,6 @@
 html {
-  background-image: linear-gradient(to bottom right, "#1b262c", "#0f4c75");
-  margin: 10px;
-
+  /* padding: 10px; */
+  /* background-color: #fff; */
 }
 
 .mainContainer {
@@ -9,20 +8,23 @@ html {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100%;
+  background-color: blanchedalmond;
+  /* width: 100vw; */
 }
 
 .header {
   display: flex;
-    flex-direction: column;
-/* flex: 1; */
-margin-top: -60px;
-
-  }
+  flex-direction: column;
+  /* flex: 1; */
+  margin-top: -60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
 
 .avatar-container {
   margin: auto;
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .subContainer {
@@ -79,12 +81,21 @@ a {
   width: 200px;
 }
 
+.github-container, .youtube-container, .email-container, .telegram-container {
+  height: 100px;
+  display: flex;
+}
+
 .github-link, .youtube-link, .telegram-link, .email-link {
   z-index: 20;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 30px;
+}
+
+.email-container {
+  margin-top: -5px;
 }
 
 .github-icon, .youtube-icon, .email-icon, .telegram-icon {
@@ -197,11 +208,9 @@ a {
 }
 
 @media screen and (min-width: 800px) {
-
   .iconsContainer {
     width: 70%;
   }
-
   .header {
     margin-bottom: 30px;
   }
