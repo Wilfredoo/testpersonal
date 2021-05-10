@@ -86,7 +86,7 @@ a {
 }
 
 .github-container, .youtube-container, .email-container, .telegram-container {
-  height: 100px;
+  height: 60px;
   display: flex;
 }
 
