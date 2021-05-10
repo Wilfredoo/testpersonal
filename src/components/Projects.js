@@ -54,10 +54,17 @@ const projects = [
     Date: "2019 - Now",
   },
   {
-    Name: "Witch Hunt Boardgames",
-    Description: "Just having fun and creating boardgames. Currently focused on Bamberg, a social deduction game where you are trying to kill the witches before they kill the children of the village. Fun stuff!",
-    Status: "In Progress",
-    Team: "Azul Moreno and I",
+    Name: "Oh No! - Key Tag for forgetful people",
+    Description: "A key tag where you can write you contact details so you are more likely to get your keys back when you lose them.",
+    Status: "Active",
+    Link: "https://etsy.me/3y1FJ2b",
+    Date: "2020 - Now",
+  },
+  {
+    Name: "Bamberg: a Witch Hunt",
+    Description: "A social deduction game for 5 to 10 players based on the european witch hunt trials of the 17th century",
+    Status: "Active and in progress",
+    Contributors: "Danilo Alvarez",
     Date: "Now",
   },
   {
@@ -68,7 +75,6 @@ const projects = [
     Status: "Inactive",
     Team: "Just me",
     "Link 1": "https://super-recogniser.com/",
-    "Link 2": "https://bit.ly/3iNvxlH",
     Date: "2020",
   },
   {
@@ -87,7 +93,7 @@ const projects = [
     Description: "A simple game to help you train memorizing numbers",
     Context:
       "I wanted a simple game that helped me memorize numbers after hearing them. I couldn't find any, so I created one ¯\_(ツ)_/¯",
-    Link: "https://sleepy-atoll-92245.herokuapp.com/",
+    Link: "http://www.numberstraining.xyz/",
     Date: "2020",
   },
 
@@ -105,13 +111,11 @@ const projects = [
   {
     Name: "Colibri",
     Description:
-      "An alternative dating app where you could only 'peck' 3 people a day and have a quick live video call with the ones you bonded with.",
+      "We tried to re-invent dating apps by creating one like no other seen in the market before. We replaced swiping and texting for a 'forest' where you could peck 3 from a random pool of people that would randomly appear to you every day.",
     Context:
       "Most people are unhappy with the current dating apps on the market, such as Tinder, Bumble or Parship. This app aimed to re-think the online dating experience.",
     Status: "Inactive (may retry in the future)",
-    Team: "Jonathan Poischen and me",
-    "Link 1": "www.colibriapp.de",
-    "Link 2": "https://bit.ly/3gZyRd1",
+    Team: "Jonathan Poischen and I",
     Date: "2019",
   },
   {
@@ -122,7 +126,7 @@ const projects = [
       "Most dance calendars look and work like crap. The idea was to create a nice looking, minimal calendar that any dance group (salsa, swing, tango, etc) in any city could use to promote their events.",
     Status: "Inactive",
     Team: "Just me",
-    Link: "www.juanitacalendar.de",
+    Link: "https://www.juanitacalendar.de",
     Date: "2019",
   },
   {

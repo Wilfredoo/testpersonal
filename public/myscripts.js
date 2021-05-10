@@ -2,36 +2,26 @@ $(document).ready(
       );
     $(document).ready(
       setTimeout(function () {
-        animateDiv(".githubIcon");
+        animateDiv(".github-icon");
       }, 4000)
     );
     
-    $(document).ready(
-      setTimeout(function () {
-        animateDiv(".linkedinIcon");
-      }, 7000)
-    );
     
+
     $(document).ready(
       setTimeout(function () {
-        animateDiv(".facebookIcon");
-      }, 7500)
-    );
-    
-    $(document).ready(
-      setTimeout(function () {
-        animateDiv(".whatsappIcon");
+        animateDiv(".telegram-icon");
       }, 9000)
     );
     
     $(document).ready(
       setTimeout(function () {
-        animateDiv(".emailIcon");
+        animateDiv(".email-icon");
       }, 9500)
     );
     $(document).ready(
       setTimeout(function () {
-        animateDiv(".youtubeIcon");
+        animateDiv(".youtube-icon");
       }, 9500)
     );
     

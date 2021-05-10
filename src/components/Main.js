@@ -27,62 +27,61 @@ function Main() {
 
   return (
     <div className="mainContainer">
-      <div>
-        <div>
+      <div className="subContainer">
+        <div className="header">
+        <div className="avatar-container">
           <img className="avatar" src="/wilfred.jpeg" />
         </div>
-        <h1>Wilfredo Casas</h1>
+        <div className="text-container">
+        <h1 id="title">Wilfredo Casas</h1>
+
         {randomTitle !== "null" && (
-          <p className="title">
+          <p className="subtitle">
             Entrepreneur {"&"} {randomTitle}
           </p>
         )}
         {randomTitle === "null" && (
-          <p className="title">Entrepreneur and Software Developer</p>
+          <p className="subtitle">Entrepreneur and Software Developer</p>
         )}
+          </div>
+</div>
 
-        <div className="social">
-          <a className="github" href="https://github.com/wilfredoo" target="_blank">
-            <img className="githubIcon" src="/github.svg" />
-          </a>
-          <a
-            className="youtube"
-            href="https://www.youtube.com/watch?v=kQQYVco9nS4&ab_channel=WilCas"
-            target="_blank"
-          >
-            <img className="youtubeIcon" src="/youtube.svg" />
-          </a>
-          <a
-            className="linkedin"
-            href="https://www.linkedin.com/in/wilfredocasas/"
-            target="_blank"
-          >
-            <img className="linkedinIcon" src="/linkedin.svg" />
-          </a>
+        <div className="iconsContainer">
+          <div className="github-container">
+            <a className="github-link" href="https://github.com/wilfredoo" target="_blank">
+              <img className="github-icon" src="/github.svg" />
+            </a>
+          </div>
 
-          <a
-            className="email"
-            href={
-              "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=me@wilfredocasas.com"
-            }
-            target="_blank"
-          >
-            <img className="emailIcon" src="/gmail.svg" />
-          </a>
-          <a
-            className="whatsapp"
-            href="https://api.whatsapp.com/send?phone=+491777898706"
-            target="_blank"
-          >
-            <img className="whatsappIcon" src="/whatsapp.svg" />
-          </a>
-          <a
-            className="facebook"
-            href="https://www.facebook.com/wilfredo.casas.752"
-            target="_blank"
-          >
-            <img className="facebookIcon" src="/facebook.svg" />
-          </a>
+          <div className="youtube-container">
+            <a
+              className="youtube-link"
+              href="https://www.youtube.com/watch?v=kQQYVco9nS4&ab_channel=WilCas"
+              target="_blank"
+            >
+              <img className="youtube-icon" src="/youtube.svg" />
+            </a>
+          </div>
+          <div className="email-container">
+            <a
+              className="email-link"
+              href={
+                "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=inbox@wilfredocasas.com"
+              }
+              target="_blank"
+            >
+              <img className="email-icon" src="/email.svg" />
+            </a>
+          </div>
+          <div className="telegram-container">
+            <a
+              className="telegram-link"
+              href="https://t.me/wildfredo"
+              target="_blank"
+            >
+              <img className="telegram-icon" src="/telegram.svg" />
+            </a>
+          </div>
         </div>
         {randomIcon && (
           <a className="projects" href="/projects" target="_blank">
