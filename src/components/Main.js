@@ -29,22 +29,22 @@ function Main() {
     <div className="mainContainer">
       <div className="subContainer">
         <div className="header">
-        <div className="avatar-container">
-          <img className="avatar" src="/wilfred.jpeg" />
-        </div>
-        <div className="text-container">
-        <h1 id="title">Wilfredo Casas</h1>
-
-        {randomTitle !== "null" && (
-          <p className="subtitle">
-            Entrepreneur {"&"} {randomTitle}
-          </p>
-        )}
-        {randomTitle === "null" && (
-          <p className="subtitle">Entrepreneur and Software Developer</p>
-        )}
+          <div className="avatar-container">
+            <img className="avatar" src="/wilfred.jpeg" />
           </div>
-</div>
+          <div className="text-container">
+            <h1 id="title">Wilfredo Casas</h1>
+
+            {randomTitle !== "null" && (
+              <p className="subtitle">
+                Entrepreneur {"&"} {randomTitle}
+              </p>
+            )}
+            {randomTitle === "null" && (
+              <p className="subtitle">Entrepreneur and Software Developer</p>
+            )}
+          </div>
+        </div>
 
         <div className="iconsContainer">
           <div className="github-container">
@@ -66,7 +66,7 @@ function Main() {
             <a
               className="email-link"
               href={
-                "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=inbox@wilfredocasas.com"
+                "mailto:inbox@wilfredocasas.com?subject=hey pal"
               }
               target="_blank"
             >
