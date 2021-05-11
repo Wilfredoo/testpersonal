@@ -21,6 +21,7 @@ function Projects() {
                   {(key === "Link" || key === "Link 1" || key === "Link 2") && (
                     <div className="link">
                       <p className="key">{key}</p>
+                      <div className="projectLinkContainer">
                       <a
                         className="projectLink"
                         href={data[key]}
@@ -28,6 +29,8 @@ function Projects() {
                       >
                         <p className="value linkValue">{data[key]}</p>
                       </a>
+                      </div>
+
                     </div>
                   )}
                 </div>
