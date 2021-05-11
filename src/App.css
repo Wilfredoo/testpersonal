@@ -8,7 +8,7 @@ html {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #faf3f3 ;
+  background-color: #faf3f3;
   /* width: 100vw; */
 }
 
@@ -156,12 +156,11 @@ a {
   text-transform: uppercase;
   margin-bottom: 30px 0 30px 0;
   text-align: center;
-
 }
 
 .projectLinkContainer {
-margin-top: 28px;
-margin-bottom: 45px;
+  margin-top: 28px;
+  margin-bottom: 45px;
 }
 
 .link {
@@ -220,14 +219,10 @@ margin-bottom: 45px;
 }
 
 @media screen and (min-width: 800px) {
-
-
-.projectLinkContainer {
-  margin-top: 28px;
-  margin-bottom: 32px;
-
-}
-
+  .projectLinkContainer {
+    margin-top: 28px;
+    margin-bottom: 32px;
+  }
   .iconsContainer {
     width: 70%;
   }
@@ -260,20 +255,17 @@ margin-bottom: 45px;
     margin-right: 6px;
   }
   .nameValue {
-    font-size: 25px; 
-     text-align: left;
-
+    font-size: 25px;
+    text-align: left;
   }
   .pageTitle {
     font-size: 35px;
     margin-left: 10px;
     text-align: left;
-
   }
   html {
     text-align: left;
   }
-
   .link {
     margin-bottom: 0;
   }

@@ -68,7 +68,8 @@ const projects = [
     Description: "A social deduction game for 5 to 10 players based on the european witch hunt trials of the 17th century",
     Status: "Active and in progress",
     Contributors: "Danilo Alvarez",
-    Date: "Now",
+    Link: "https://bit.ly/3hmYxTX",
+    Date: "Now"
   },
   {
     Name: "Super Recogniser",
