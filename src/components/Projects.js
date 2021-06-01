@@ -52,9 +52,16 @@ const projects = [
     Context:
       "Before Jobdirecto, Hispanic immigrants had no direct, clean and trustable way to find jobs. Thus, I created Jobdirecto.",
     Status: "Active",
-    Team: "Just moi",
     Link: "https://www.jobdirecto.com/",
     Date: "2019 - Now",
+  },
+  {
+    Name: "Bamberg: a Witch Hunt",
+    Description: "A social deduction game for 5 to 10 players based on the european witch hunt trials of the 17th century",
+    Status: "Active",
+    Contributors: "Danilo Alvarez",
+    Link: "https://bit.ly/3hmYxTX",
+    Date: "Now"
   },
   {
     Name: "Oh No! - Key Tag for forgetful people",
@@ -63,21 +70,13 @@ const projects = [
     Link: "https://etsy.me/3y1FJ2b",
     Date: "2020 - Now",
   },
-  {
-    Name: "Bamberg: a Witch Hunt",
-    Description: "A social deduction game for 5 to 10 players based on the european witch hunt trials of the 17th century",
-    Status: "Active and in progress",
-    Contributors: "Danilo Alvarez",
-    Link: "https://bit.ly/3hmYxTX",
-    Date: "Now"
-  },
+
   {
     Name: "Super Recogniser",
     Description: "A collection of games to train facial recognition skills",
     Context:
       "A small number of people in the world suffers from prosopagnosia, a condition in which they can't recognize faces. This app is for them.",
     Status: "Inactive",
-    Team: "Just me",
     "Link 1": "https://super-recogniser.com/",
     Date: "2020",
   },
@@ -88,7 +87,7 @@ const projects = [
     Context:
       "What would you write if you didn't know who the recipient would be? That was the premise for this app.",
     Status: "Inactive",
-    Team: "Emmanuel Byiringiro and me",
+    Contributors: "Emmanuel Byiringiro",
     Link: "https://bit.ly/31OWMp2",
     Date: "2020",
   },
@@ -100,15 +99,12 @@ const projects = [
     Link: "http://www.numberstraining.xyz/",
     Date: "2020",
   },
-
   {
     Name: "Whale",
     Description: "An app to exchange locations with friends and family",
     Context:
       "How do whales communicate? They use echo-location. With Whale, you could do the same (but using geo-locations duh).",
     Status: "Inactive",
-    Team: "Just me",
-
     Link: "https://bit.ly/2Y0ueHR",
     Date: "2019",
   },
@@ -129,7 +125,6 @@ const projects = [
     Context:
       "Most dance calendars look and work like crap. The idea was to create a nice looking, minimal calendar that any dance group (salsa, swing, tango, etc) in any city could use to promote their events.",
     Status: "Inactive",
-    Team: "Just me",
     Link: "https://www.juanitacalendar.de",
     Date: "2019",
   },
@@ -139,7 +134,6 @@ const projects = [
     Context:
       "The sport got trendy in 2011 in Peru and gloves on the market were too expensive for most people, so I created my own brand and sold them locally.",
     Status: "Inactive",
-    Team: "Just me",
     Link: "https://bit.ly/31SnxJ7",
     Date: "2012",
   },
