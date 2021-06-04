@@ -52,6 +52,7 @@ const projects = [
     Context:
       "Before Jobdirecto, Hispanic immigrants had no direct, clean and trustable way to find jobs. Thus, I created Jobdirecto.",
     Status: "Active",
+    Contributors: "Jose Torrens",
     Link: "https://www.jobdirecto.com/",
     Date: "2019 - Now",
   },
