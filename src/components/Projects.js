@@ -112,11 +112,12 @@ const projects = [
   {
     Name: "Colibri",
     Description:
-      "We tried to re-invent dating apps by creating one like no other seen in the market before. We replaced swiping and texting for a 'forest' where you could peck 3 from a random pool of people that would randomly appear to you every day.",
+      "A unique and playful dating app where you could 'peck' only 3 people a day from random pool of people. Only video messages would be allowed. No swiping or texting by design.",
     Context:
-      "Most people are unhappy with the current dating apps on the market, such as Tinder, Bumble or Parship. This app aimed to re-think the online dating experience.",
+      "We tried to re-invent dating apps by creating one like no other seen in the market before. Most people are unhappy with the current dating apps on the market, such as Tinder, Bumble or Parship. This app aimed to re-think the online dating experience.",
     Status: "Inactive (may retry in the future)",
     Team: "Jonathan Poischen and I",
+    Link: "none, app is down",
     Date: "2019",
   },
   {
