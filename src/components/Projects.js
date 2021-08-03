@@ -78,7 +78,7 @@ const projects = [
     Context:
       "A small number of people in the world suffers from prosopagnosia, a condition in which they can't recognize faces. This app is for them.",
     Status: "Inactive",
-    "Link 1": "https://super-recogniser.com/",
+    "Link": "https://superrecogniser.herokuapp.com/",
     Date: "2020",
   },
   {
