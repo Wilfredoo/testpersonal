@@ -50,14 +50,14 @@ const projects = [
     Name: "Sports Jam Berlin",
     Description: "Creating new sports just for the sake of it",
     Status: "Active",
-    Link: "https://www.meetup.com/sports-jam-berlin/events/285493507/",
+    Link: "https://www.meetup.com/sports-jam-berlin",
     Date: "2022",
   },
   {
     Name: "What2Gyft",
     Description: "A site to list your gift preferences and find the gifts your friends really want",
     Status: "Active",
-    Cofounders: "Jonathan Neidel",
+    Team: "Jonathan Neidel and I",
     Date: "2022",
   },
   {
