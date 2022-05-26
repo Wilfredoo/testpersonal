@@ -47,6 +47,20 @@ export default Projects;
 
 const projects = [
   {
+    Name: "Sports Jam Berlin",
+    Description: "Creating new sports just for the sake of it",
+    Status: "Active",
+    Link: "https://www.meetup.com/sports-jam-berlin/events/285493507/",
+    Date: "2022",
+  },
+  {
+    Name: "What2Gyft",
+    Description: "A site to list your gift preferences and find the gifts your friends really want",
+    Status: "Active",
+    Cofounders: "Jonathan Neidel",
+    Date: "2022",
+  },
+  {
     Name: "Jobdirecto",
     Description: "A simple job board for Hispanic immigrants in NYC",
     Context:
@@ -61,14 +75,14 @@ const projects = [
     Description: "A social deduction game for 5 to 10 players based on the european witch hunt trials of the 17th century",
     Status: "Active",
     Contributors: "Danilo Alvarez",
-    Link: "https://bit.ly/3hmYxTX",
+    Link: "https://www.instagram.com/play_bamberg",
     Date: "Now"
   },
   {
-    Name: "Oh No! - Key Tag for forgetful people",
-    Description: "A key tag where you can write you contact details so you are more likely to get your keys back when you lose them.",
+    Name: "Oh No! - Products for forgetful people",
+    Description: "A key tag and a plastic card where you can write you contact details so that you are more likely to get your keys back or wallet back if you lose them.",
     Status: "Active",
-    Link: "https://etsy.me/3y1FJ2b",
+    Link: "https://www.etsy.com/listing/1136133015/card-for-wallet-for-forgetful-people-by",
     Date: "2020 - Now",
   },
 
@@ -89,7 +103,6 @@ const projects = [
       "What would you write if you didn't know who the recipient would be? That was the premise for this app.",
     Status: "Inactive",
     Contributors: "Emmanuel Byiringiro",
-    Link: "https://bit.ly/31OWMp2",
     Date: "2020",
   },
   {
@@ -97,7 +110,7 @@ const projects = [
     Description: "A simple game to help you train memorizing numbers",
     Context:
       "I wanted a simple game that helped me memorize numbers after hearing them. I couldn't find any, so I created one ¯\_(ツ)_/¯",
-    Link: "http://www.numberstraining.xyz/",
+    Link: "https://numberss.herokuapp.com/",
     Date: "2020",
   },
   {
@@ -117,7 +130,6 @@ const projects = [
       "We tried to re-invent dating apps by creating one like no other seen in the market before. Most people are unhappy with the current dating apps on the market, such as Tinder, Bumble or Parship. This app aimed to re-think the online dating experience.",
     Status: "Inactive (may retry in the future)",
     Team: "Jonathan Poischen and I",
-    Link: "none, app is down",
     Date: "2019",
   },
   {
@@ -127,7 +139,6 @@ const projects = [
     Context:
       "Most dance calendars look and work like crap. The idea was to create a nice looking, minimal calendar that any dance group (salsa, swing, tango, etc) in any city could use to promote their events.",
     Status: "Inactive",
-    Link: "https://www.juanitacalendar.de",
     Date: "2019",
   },
   {
