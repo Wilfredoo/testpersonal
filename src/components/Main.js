@@ -6,10 +6,14 @@ import titles from "../titleArray";
 function Main() {
   const [randomIcon, setRandomIcon] = useState(null);
   const [randomTitle, setRandomTitle] = useState(null);
+  const [randomBinary, setRandomBinary] = useState(null);
+
 
   useEffect(() => {
     randomizeIcon();
     randomizeTitle();
+    randomizeBinary();
+
   }, []);
 
   async function randomizeIcon() {
@@ -24,13 +28,17 @@ function Main() {
   }
 
 
+  async function randomizeBinary() {
+    const binary = Math.floor(Math.random() * 2)
+    setRandomBinary(binary);
+  }
 
   return (
     <div className="mainContainer">
       <div className="subContainer">
         <div className="header">
           <div className="avatar-container">
-            <img className="avatar" src="/wilfred.jpeg" />
+            <img className="avatar" src={`/wilfredo${randomBinary}.png`} />
           </div>
           <div className="text-container">
             <h1 id="title">Wilfredo Casas</h1>

@@ -11,7 +11,6 @@ const titles = [
     "Proficient Sorcerer",
     "Freelance Wizard",
     "Orc Rights Advocate",
-    "Lieutenant of Something",
     "Exiled Prince",
     "Bandito",
     "Occasional Werewolf",

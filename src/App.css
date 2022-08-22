@@ -164,7 +164,7 @@ a {
 }
 
 .link {
-  margin-bottom: -30px;
+  /* margin-bottom: -30px; */
 }
 
 .oneProject {
@@ -187,7 +187,6 @@ a {
   font-size: 15px;
   font-weight: bold;
   text-align: right;
-  margin-top: 38px;
   margin-bottom: 20px;
 }
 
@@ -201,6 +200,9 @@ a {
 
 .linkValue {
   margin-top: -20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .nameValue {
@@ -251,7 +253,7 @@ a {
   }
   .dateValue {
     font-size: 20px;
-    margin-top: -60px;
+    /* margin-top: -60px; */
     margin-right: 6px;
   }
   .nameValue {

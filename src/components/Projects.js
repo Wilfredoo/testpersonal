@@ -47,10 +47,10 @@ export default Projects;
 
 const projects = [
   {
-    Name: "Sports Jam Berlin",
-    Description: "Creating new sports just for the sake of it",
+    Name: "Short Films",
+    Description: "Making simple short films for fun",
     Status: "Active",
-    Link: "https://www.meetup.com/sports-jam-berlin",
+    Link: "https://vimeo.com/user173281881",    
     Date: "2022",
   },
   {
@@ -71,17 +71,24 @@ const projects = [
     Date: "2019 - Now",
   },
   {
+    Name: "Sports Jam Berlin",
+    Description: "Creating new sports just for the sake of it",
+    Status: "Inactive",
+    Link: "https://www.meetup.com/sports-jam-berlin",
+    Date: "2022",
+  },
+  {
     Name: "Bamberg: a Witch Hunt",
     Description: "A social deduction game for 5 to 10 players based on the european witch hunt trials of the 17th century",
-    Status: "Active",
+    Status: "Inactive",
     Contributors: "Danilo Alvarez",
     Link: "https://www.instagram.com/play_bamberg",
-    Date: "Now"
+    Date: "2021 - 2022"
   },
   {
     Name: "Oh No! - Products for forgetful people",
     Description: "A key tag and a plastic card where you can write you contact details so that you are more likely to get your keys back or wallet back if you lose them.",
-    Status: "Active",
+    Status: "Inactive",
     Link: "https://www.etsy.com/listing/1136133015/card-for-wallet-for-forgetful-people-by",
     Date: "2020 - Now",
   },
@@ -119,7 +126,7 @@ const projects = [
     Context:
       "How do whales communicate? They use echo-location. With Whale, you could do the same (but using geo-locations duh).",
     Status: "Inactive",
-    Link: "https://bit.ly/2Y0ueHR",
+    Link: "https://play.google.com/store/apps/details?id=com.wilfredo.geowhale",
     Date: "2019",
   },
   {
@@ -147,7 +154,7 @@ const projects = [
     Context:
       "The sport got trendy in 2011 in Peru and gloves on the market were too expensive for most people, so I created my own brand and sold them locally.",
     Status: "Inactive",
-    Link: "https://bit.ly/31SnxJ7",
+    Link: "https://www.facebook.com/photo.php?fbid=127097580734630&set=pb.100003031658712.-2207520000..&type=3&theater",
     Date: "2012",
   },
 ];
