@@ -1,6 +1,9 @@
 {
   "name": "react5",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.18.0"
+  },
   "private": true,
   "homepage": "https://wilfredocasas.com",
   "dependencies": {
@@ -13,7 +16,8 @@
     "react-dom": "^16.13.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "^5.0.1",
+    "typescript": "^3.9.10"
   },
   "scripts": {
     "start": "react-scripts start",
