@@ -54,13 +54,6 @@ const projects = [
     Date: "2022",
   },
   {
-    Name: "What2Gyft",
-    Description: "A site to list your gift preferences and find the gifts your friends really want",
-    Status: "Active",
-    Team: "Jonathan Neidel and I",
-    Date: "2022",
-  },
-  {
     Name: "Jobdirecto",
     Description: "A simple job board for Hispanic immigrants in NYC",
     Context:
@@ -69,6 +62,13 @@ const projects = [
     Contributors: "Jose Torrens",
     Link: "https://www.jobdirecto.com/",
     Date: "2019 - Now",
+  },
+  {
+    Name: "What2Gyft",
+    Description: "A site to list your gift preferences and find the gifts your friends really want",
+    Status: "Inactive",
+    Team: "Jonathan Neidel and I",
+    Date: "2022",
   },
   {
     Name: "Sports Jam Berlin",
