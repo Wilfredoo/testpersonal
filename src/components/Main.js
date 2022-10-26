@@ -91,11 +91,11 @@ function Main() {
             </a>
           </div>
         </div>
-        {randomIcon && (
+        {/* {randomIcon && (
           <a className="projects" href="/projects" target="_blank">
             <img className="projectsIcon" src={`/projects/${randomIcon}.svg`} />
           </a>
-        )}
+        )} */}
         <footer id="footer">
           <div>
             <p>
